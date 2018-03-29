@@ -1,1 +1,16 @@
 @import "bootstrap";
+@import "styles/header.scss";
+@import "styles/navbar.scss";
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}

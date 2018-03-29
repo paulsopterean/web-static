@@ -1,0 +1,36 @@
+#header {
+  background-image: url("background-header.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+}
+
+#header img {
+  width: 80%;
+  height: auto;
+
+}
+
+.header-text {
+  text-align: left;
+  color: white;
+}
+
+#powerful {
+  color: #FFC717;
+}
+
+.header-text h1 {
+  font-family: "FuturaHeavy", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header-text p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}

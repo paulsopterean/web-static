@@ -1,0 +1,20 @@
+.navbar-brand, #navbar ul li a {
+  font-family: "FuturaHeavy", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 23px;
+  color: white;
+  padding-right: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+#navbar ul {
+  float: right;
+}
+
+.active {
+  border-bottom: 3px solid #FFC717
+}

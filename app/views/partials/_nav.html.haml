@@ -1,0 +1,28 @@
+%nav.navbar.navbar-light.navbar-fixed-top{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+    .container
+      .row
+        .col-md-12
+        = link_to "WOLFPACK DIGITAL", "#", class: "navbar-brand"
+        #navbar.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li.active
+              %a{:href => "#"} HOME
+            %li
+              %a{:href => "#about"} SERVICES
+            %li
+              %a{:href => "#contact"} MISSION
+            %li
+              %a{:href => "#about"} PORTFOLIO
+            %li
+              %a{:href => "#contact"} TEAM
+            %li
+              %a{:href => "#about"} TESTIMONIALS
+            %li
+              %a{:href => "#contact"} CONTACT
